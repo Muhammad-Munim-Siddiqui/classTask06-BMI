@@ -1,1 +1,48 @@
-h1{color: red;}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: gainsboro;
+}
+.container{
+    background-color: white;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    /* height: 80vh; */
+    width: 350px;
+    text-align: center;
+}
+h1{
+    /* color: #715aff; */
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+#weight{
+    border: transparent;
+    border-radius: 5px;
+    background-color: gainsboro;
+    padding: 7px;
+    margin: 10px;
+
+}
+#height{
+    margin: 10px;
+    border: transparent;
+    border-radius: 5px;
+    background-color: gainsboro;
+    padding: 7px;
+}
+
+button{
+    background-color: gainsboro;
+    border: transparent;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
