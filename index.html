@@ -9,11 +9,17 @@
 <body>
     <div class="container">
         <h1>BMI Calculator</h1>
-        <input type="text" placeholder="Weight (in kilogram)" id="weight">
-        <input type="text" placeholder="Height (in meters)" id="height">
+        <input type="number" placeholder="Weight (in kilogram)" id="weight">
+        <h4 id="error1"></h4>
+        <input type="number" placeholder="Height (in meters)" id="height">
+        <h4 id="error2"></h4>
         <br>
-        <button>calculate</button>
+        <button onclick="bmiCalculate()">calculate</button>
+        <div id="Result">
+            <h3 id="bmi-result"></h3>
+            <h3 id="bmi-value"></h3>
+        </div>
     </div>
-    <script></script>
+    <script src="./script.js"></script>
 </body>
 </html>
